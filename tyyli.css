@@ -8,8 +8,8 @@ body, h1, h2, h3, p, ul, ol {
 body {
     font-family: Arial, sans-serif; /* Määrittää fontin koko sivustolle */
     line-height: 1.6; /* Määrittää rivivälin */
-    background-color: #4b9625; /* Taustaväri */
-    color: #333; /* Tekstin väri */
+    background-color: #234b0f; /* Taustaväri */
+    color: #000000; /* Tekstin väri */
 }
 
 .container {
