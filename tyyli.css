@@ -1,14 +1,77 @@
+/* Nollaa oletusarvoiset selaimen tyylit */
+body, h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Yleiset tyylit */
 body {
-    background-color: darkolivegreen;
+    font-family: Arial, sans-serif; /* Määrittää fontin koko sivustolle */
+    line-height: 1.6; /* Määrittää rivivälin */
+    background-color: #4b9625; /* Taustaväri */
+    color: #333; /* Tekstin väri */
 }
-h1 {
-    color:black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.container {
+    width: 80%; /* Leveys asetetaan 80 prosenttiin näytön leveydestä */
+    margin: 0 auto; /* Keskittää sisällön vaakasuunnassa */
+    padding: 20px; /* Lisää tyhjää tilaa sisällön ympärille */
 }
-h2 {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+/* Yläotsikon tyylit */
+header {
+    background-color: #ffffff; /* Taustaväri */
+    color: #000000; /* Tekstin väri */
+    padding: 10px 0; /* Ylä- ja alareunaan 10 pikselin tyhjä tila, vaakasuunnassa ei tyhjää tilaa */
+    text-align: center; /* Tekstin keskittäminen vaakasuunnassa */
 }
+
+header h1 {
+    font-size: 2em; /* Yläotsikon fonttikoko */
+}
+
+/* Navigaation tyylit */
+nav ul {
+    list-style-type: none; /* Poistaa luettelomerkit */
+    text-align: center; /* Tekstin keskittäminen vaakasuunnassa */
+}
+
+nav ul li {
+    display: inline; /* Elementtien sijoittuminen rinnakkain */
+    margin-right: 10px; /* Oikeanpuoleinen tyhjä tila */
+}
+
+nav ul li a {
+    text-decoration: none; /* Poistaa linkkien korostuksen */
+    color: #fff; /* Linkkien väri */
+}
+
+/* Pääsisällön tyylit */
+main {
+    padding: 20px 0; /* Tyhjää tilaa ylä- ja alareunaan 20 pikseliä, vaakasuunnassa ei tyhjää tilaa */
+}
+
+/* Alatunnisteen tyylit */
+footer {
+    background-color: #333; /* Taustaväri */
+    color: #fff; /* Tekstin väri */
+    text-align: center; /* Tekstin keskittäminen vaakasuunnassa */
+    padding: 10px 0; /* Ylä- ja alareunaan 10 pikselin tyhjä tila, vaakasuunnassa ei tyhjää tilaa */
+}
+
+/* Responsiivisen suunnittelun media-kyselyt */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Leveys asetetaan 90 prosenttiin näytön leveydestä */
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 1.5em; /* Pienempi fonttikoko mobiilinäkymää varten */
+    }
+}
+
 .big-button {
  width: 200px;
  height: 50px;   
