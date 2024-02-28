@@ -56,8 +56,7 @@ main {
 
 /* Alatunnisteen tyylit */
 footer {
-    background-color: #333; /* Taustaväri */
-    color: #fff; /* Tekstin väri */
+    color: #000000; /* Tekstin väri */
     text-align: center; /* Tekstin keskittäminen vaakasuunnassa */
     padding: 10px 0; /* Ylä- ja alareunaan 10 pikselin tyhjä tila, vaakasuunnassa ei tyhjää tilaa */
 }
