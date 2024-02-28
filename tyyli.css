@@ -1,7 +1,7 @@
 /* Nollaa oletusarvoiset selaimen tyylit */
 body, h1, h2, h3, p, ul, ol {
-    margin: 0;
-    padding: 0;
+   margin: 0;
+    padding: 0; 
 }
 
 /* Yleiset tyylit */
@@ -20,7 +20,7 @@ body {
 
 /* Yläotsikon tyylit */
 header {
-    background-color: #dbdbdb; /* Taustaväri */
+    background-color:white; /* Taustaväri */
     color: #000000; /* Tekstin väri */
     padding: 10px 0; /* Ylä- ja alareunaan 10 pikselin tyhjä tila, vaakasuunnassa ei tyhjää tilaa */
     text-align: center; /* Tekstin keskittäminen vaakasuunnassa */
