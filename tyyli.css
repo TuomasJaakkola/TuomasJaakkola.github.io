@@ -37,7 +37,7 @@ nav a {
     text-decoration: none;
     display: inline-block;
     border: 2px
-    
+}
 
 nav ul li {
     display: inline; /* Elementtien sijoittuminen rinnakkain */
