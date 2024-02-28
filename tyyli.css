@@ -31,10 +31,13 @@ header h1 {
 }
 
 /* Navigaation tyylit */
-nav ul {
-    list-style-type: none; /* Poistaa luettelomerkit */
-    text-align: center; /* Tekstin keskittäminen vaakasuunnassa */
-}
+nav a {
+    background-color:white;
+    color:#000000
+    text-decoration: none;
+    display: inline-block;
+    border: 2px
+    
 
 nav ul li {
     display: inline; /* Elementtien sijoittuminen rinnakkain */
