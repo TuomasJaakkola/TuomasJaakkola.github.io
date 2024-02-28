@@ -20,7 +20,7 @@ body {
 
 /* Yläotsikon tyylit */
 header {
-    background-color: #ffffff; /* Taustaväri */
+    background-color: #dbdbdb; /* Taustaväri */
     color: #000000; /* Tekstin väri */
     padding: 10px 0; /* Ylä- ja alareunaan 10 pikselin tyhjä tila, vaakasuunnassa ei tyhjää tilaa */
     text-align: center; /* Tekstin keskittäminen vaakasuunnassa */
