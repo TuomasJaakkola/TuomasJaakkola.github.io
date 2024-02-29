@@ -38,6 +38,7 @@ header {
 header h1 {
   font-size: 2em; /* Yläotsikon fonttikoko */
   font-family: 'Times New Roman', Times, serif;
+  text-align: center;
 }
 
 /* päävalikko */
