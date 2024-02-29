@@ -26,7 +26,7 @@ body {
 
 /* Yläotsikon tyylit */
 header {
-  background-color: white; /* Taustaväri */
+  background-color: forestgreen; /* Taustaväri */
   color: #000000; /* Tekstin väri */
   padding: 20px 0; /* Ylä- ja alareunaan 10 pikselin tyhjä tila, vaakasuunnassa ei tyhjää tilaa */
   text-align: center; /* Tekstin keskittäminen vaakasuunnassa */
