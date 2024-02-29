@@ -37,7 +37,7 @@ header h1 {
   font-family: 'Times New Roman', Times, serif;
 }
 
-/* Navigaation tyylit */
+/* päävalikko */
 nav a {
   background-color: forestgreen;
   color: #000000;
@@ -45,15 +45,9 @@ nav a {
   display: inline-block;
   border: 5px;
 }
-
-nav ul li {
-  display: inline; /* Elementtien sijoittuminen rinnakkain */
-  margin-right: 10px; /* Oikeanpuoleinen tyhjä tila */
-}
-
-nav ul li a {
-  text-decoration: none; /* Poistaa linkkien korostuksen */
-  color: #040404; /* Linkkien väri */
+nav a:hover {
+  color: forestgreen;
+  background-color: white;
 }
 
 /* Pääsisällön tyylit */
