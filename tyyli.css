@@ -82,4 +82,6 @@ footer {
   color: forestgreen;
   width: 200px;
   height: 50px;
+  display: flex;
+  justify-content: center;
 }
