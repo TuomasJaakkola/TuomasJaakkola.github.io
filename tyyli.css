@@ -49,8 +49,8 @@ nav a {
   border: 5px;
 }
 nav a:hover {
-  color: forestgreen;
-  background-color: white;
+  color: white;
+  background-color: black;
 }
 
 /* Pääsisällön tyylit */
