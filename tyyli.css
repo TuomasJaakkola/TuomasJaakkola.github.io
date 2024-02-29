@@ -22,6 +22,9 @@ body {
   width: 80%; /* Leveys asetetaan 80 prosenttiin näytön leveydestä */
   margin: 0 auto; /* Keskittää sisällön vaakasuunnassa */
   padding: 20px; /* Lisää tyhjää tilaa sisällön ympärille */
+  background-image: url('etusivun kuva.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 /* Yläotsikon tyylit */
