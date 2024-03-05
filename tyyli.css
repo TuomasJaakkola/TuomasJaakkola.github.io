@@ -50,8 +50,8 @@ nav a {
   border: 5px;
 }
 nav a:hover {
-  color: white;
-  background-color: black;
+  color:#000000;
+  background-color: rgb(9, 79, 3);
 }
 
 /* Pääsisällön tyylit */
