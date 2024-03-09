@@ -122,6 +122,6 @@ main {
 }
 .logobody {
   float: left; /* Siirrä logo vasemmalle */
-    width: 250px;
+    width: 200px;
     height: auto;
 }
