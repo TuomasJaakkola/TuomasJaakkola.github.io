@@ -120,3 +120,8 @@ main {
 } .logo-container {
    margin-right: 20px;
 }
+.logobody {
+  float: left; /* Siirrä logo vasemmalle */
+    width: 250px;
+    height: auto;
+}
