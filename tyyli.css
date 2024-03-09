@@ -127,3 +127,6 @@ main {
     height: auto;
     padding: 20px;
 }
+.centered-text {
+  text-align: center;
+}
