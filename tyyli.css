@@ -15,7 +15,7 @@ body {
   font-family: "Times New Roman", Times, serif; /* Määrittää fontin koko sivustolle */
   line-height: 1.6; /* Määrittää rivivälin */
   color: #000000;
-  
+  font-size: 1em;
 }
 .container {
   display: grid;
