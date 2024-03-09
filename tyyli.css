@@ -13,8 +13,7 @@ ol {
 /* Yleiset tyylit */
 body {
   font-family: "Times New Roman", Times, serif; /* Määrittää fontin koko sivustolle */
-  line-height: 1.6; /* Määrittää rivivälin */
-  background-color: white; /* Taustaväri */
+  line-height: 1.6; /* Määrittää rivivälin *
   color: #000000; /* Tekstin väri */
 }
 .container {
