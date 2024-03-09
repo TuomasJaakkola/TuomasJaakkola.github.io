@@ -40,6 +40,11 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family:'Times New Roman', Times, serif ;
+  text-align: center;
+}
+
 /* päävalikko */
 nav a {
   background-color: forestgreen;
