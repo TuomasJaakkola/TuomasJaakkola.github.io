@@ -12,19 +12,15 @@ ol {
 
 /* Yleiset tyylit */
 body {
-  font-family:'Times New Roman', Times, serif; /* Määrittää fontin koko sivustolle */
+  font-family: "Times New Roman", Times, serif; /* Määrittää fontin koko sivustolle */
   line-height: 1.6; /* Määrittää rivivälin */
   background-color: white; /* Taustaväri */
   color: #000000; /* Tekstin väri */
 }
-
 .container {
-  width: 80%; /* Leveys asetetaan 80 prosenttiin näytön leveydestä */
-  margin: 0 auto; /* Keskittää sisällön vaakasuunnassa */
-  padding: 20px; /* Lisää tyhjää tilaa sisällön ympärille */
-  background-image: url('etusivun kuva.jpg');
-  background-size: cover;
-  background-position: center;
+  display: grid;
+  place-items: center; /* Keskitä sekä vaaka- että pystysuunnassa */
+  height: 100vh; /* Tehdään kontaineri täysikokoiseksi näytön korkeudelle */
 }
 
 /* Yläotsikon tyylit */
@@ -33,11 +29,14 @@ header {
   color: white; /* Tekstin väri */
   padding: 20px 0; /* Ylä- ja alareunaan 10 pikselin tyhjä tila, vaakasuunnassa ei tyhjää tilaa */
   text-align: center; /* Tekstin keskittäminen vaakasuunnassa */
+  align-items: center;
+  height: 75px;
+  width: 100%;
 }
 
 h1 {
   font-size: 2em; /* Yläotsikon fonttikoko */
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 
@@ -47,11 +46,15 @@ nav a {
   color: #000000;
   text-decoration: none;
   display: inline-block;
-  padding: 20px 0;
   font-size: 20px;
+  border: 15px solid forestgreen;
 }
 nav a:hover {
-  color:#000000;
+  color: #000000;
+  background-color: rgb(29, 116, 21);
+}
+#valittu {
+  color: rgb(7, 7, 7);
   background-color: rgb(29, 116, 21);
 }
 
@@ -61,10 +64,23 @@ main {
 }
 
 /* Alatunnisteen tyylit */
-footer {
+.footer {
+  background-color: forestgreen; /* Taustaväri */
   color: #000000; /* Tekstin väri */
-  text-align: center; /* Tekstin keskittäminen vaakasuunnassa */
-  padding: 10px 0; /* Ylä- ja alareunaan 10 pikselin tyhjä tila, vaakasuunnassa ei tyhjää tilaa */
+  padding: 20px; /* Sisäväli */
+  width: 100%;
+  height: 100px;
+  font-size: 20px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Kaksi saraketta yhtä suurina */
+  align-items: center; /* Keskitä sisältö pystysuunnassa */
+}
+
+.footer-content .copyright-bar {
+  text-align: center; /* Aseta tekstit oikealle */
 }
 
 /* Responsiivisen suunnittelun media-kyselyt */
@@ -87,7 +103,14 @@ footer {
 }
 .big-button {
   color: forestgreen;
-  width: 200px;
-  height: 50px;
-  align-items: center;
+  width: 300px;
+  height: 100px;
+  font-size: 20px;
+}
+.logo {
+    float: left; /* Siirrä logo vasemmalle */
+    width: 100px;
+    height: auto;
+} .logo-container {
+   margin-right: 20px;
 }
