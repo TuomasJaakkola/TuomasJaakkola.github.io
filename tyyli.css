@@ -111,7 +111,7 @@ main {
       overflow: hidden; /* Estä linkkien ulosmeno footerin ulkopuolelle */
   }
 }
-}
+
 .content {
   display: flex;
   flex-direction: column;
