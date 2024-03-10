@@ -97,22 +97,19 @@ main {
 }
 
 /* Responsiivisen suunnittelun media-kyselyt */
-@media (max-width: 768px) {
-  .container {
-    width: 80%; /* Leveys asetetaan 90 prosenttiin näytön leveydestä */
+@media only screen and (max-width: 768px) { /* Muokkaa max-width arvoa tarpeidesi mukaan */
+  .footer {
+      height: auto; /* Aseta footerin korkeus automaattiseksi */
+      overflow: hidden; /* Estä linkkien ulosmeno footerin ulkopuolelle */
   }
-} .footer {
-  height: auto; /* Aseta footerin korkeus automaattiseksi */
-  overflow: hidden; /* Estä linkkien ulosmeno footerin ulkopuolelle */
 }
 
 
-@media (max-width: 576px) {
-  header h1 {
-    font-size: 1.5em; /* Pienempi fonttikoko mobiilinäkymää varten */
-  } .footer {
-    height: auto; /* Aseta footerin korkeus automaattiseksi */
-    overflow: hidden; /* Estä linkkien ulosmeno footerin ulkopuolelle */
+@media only screen and (max-width: 576px) { /* Muokkaa max-width arvoa tarpeidesi mukaan */
+  .footer {
+      height: auto; /* Aseta footerin korkeus automaattiseksi */
+      overflow: hidden; /* Estä linkkien ulosmeno footerin ulkopuolelle */
+  }
 }
 }
 .content {
