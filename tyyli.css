@@ -23,7 +23,6 @@ body {
 .container {
   display: grid;
   place-items: top; /* Keskitä sekä vaaka- että pystysuunnassa */
-  height: 100vh; /* Tehdään kontaineri täysikokoiseksi näytön korkeudelle */
   margin-top:100px; 
 }
 
