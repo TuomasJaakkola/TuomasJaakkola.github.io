@@ -23,7 +23,7 @@ body {
 .container {
   display: grid;
   place-items: top; /* Keskitä sekä vaaka- että pystysuunnassa */
-  margin-top:100px; 
+  margin-top:10px; 
 }
 
 /* Yläotsikon tyylit */
