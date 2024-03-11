@@ -98,30 +98,18 @@ main {
 
 /* Responsiivisen suunnittelun media-kyselyt */
 @media (max-width: 768px) {
-  .container {
-    width: 90%; /* Leveys asetetaan 90 prosenttiin näytön leveydestä */
-  } 
-   header {
-   font-size: 1em;
+  body {
+    font-size: 14px; /* Adjust as needed */
   }
-}
 
-@media (max-width: 768px) {
-  .container {
-    width: 90%; /* Leveys asetetaan 90 prosenttiin näytön leveydestä */
-  } 
-   header {
-   font-size: 1em;
+  nav {
+    flex-direction: column; /* Stack navigation links vertically */
+    align-items: center; /* Center align navigation links */
   }
-}
 
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-}
+  .big-button {
+    width: 100%; /* Take full width on smaller screens */
+  }
 .big-button {
   color: forestgreen;
   width: 300px;
