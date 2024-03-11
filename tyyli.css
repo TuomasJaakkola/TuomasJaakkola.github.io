@@ -95,7 +95,6 @@ main {
 .footer-content .copyright-bar {
   text-align: center; /* Aseta tekstit oikealle */
 }
-
 .content {
   display: flex;
   flex-direction: column;
