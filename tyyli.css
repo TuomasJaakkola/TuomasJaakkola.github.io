@@ -61,11 +61,6 @@ nav a:hover {
   background-color: rgb(29, 116, 21);
 }
 
-/* Pääsisällön tyylit */
-main {
-  padding: 20px 0; /* Tyhjää tilaa ylä- ja alareunaan 20 pikseliä, vaakasuunnassa ei tyhjää tilaa */
-}
-
 /* Alatunnisteen tyylit */
 .footer {
   background-color: forestgreen; /* Taustaväri */
