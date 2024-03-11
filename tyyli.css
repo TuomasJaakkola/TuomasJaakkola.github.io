@@ -153,3 +153,6 @@ nav a:hover {
 .image-row img {
   margin: 0 30px; /* Lisää hieman väliä kuvien välille */  
 }
+.href a {
+  max-height:50px;
+}
