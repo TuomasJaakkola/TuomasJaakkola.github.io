@@ -131,7 +131,7 @@ nav a:hover {
   width: 300px;
   height: 100px;
   font-size: 20px;
-  margin-top: -25px;
+  place-content: top;
 }
 .logo {
     float: left; /* Siirrä logo vasemmalle */
@@ -152,7 +152,4 @@ nav a:hover {
 }
 .image-row img {
   margin: 0 30px; /* Lisää hieman väliä kuvien välille */  
-}
-.href a {
-  max-height:50px;
 }
