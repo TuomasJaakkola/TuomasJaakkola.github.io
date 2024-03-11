@@ -16,7 +16,7 @@ body {
   line-height: 1.6; /* Määrittää rivivälin */
   color: #000000;
   font-size: 1em;
-  display: flex;
+  display: center;
   align-items: center;
   width: 100%;
 }
