@@ -20,6 +20,7 @@ body {
   align-items: center;
   width: 100%;
 }
+
 .container {
   display: grid;
   place-items: top; /* Keskitä sekä vaaka- että pystysuunnassa */
