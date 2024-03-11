@@ -93,7 +93,7 @@ main {
 /* Responsiivisen suunnittelun media-kyselyt */
 @media (max-width: 768px) {
   nav a {
-    font-size: 14px; /* Pienennä fonttikokoa */
+    font-size: 12px; /* Pienennä fonttikokoa */
     /* Pienennä sisävälit */
   }
   
