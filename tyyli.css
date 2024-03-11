@@ -131,7 +131,7 @@ nav a:hover {
   width: 300px;
   height: 100px;
   font-size: 20px;
-  place-content: top;
+  align-self: flex-start;
 }
 .logo {
     float: left; /* Siirrä logo vasemmalle */
