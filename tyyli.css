@@ -89,9 +89,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Kaksi saraketta yhtä suurina */
   align-items: center; /* Keskitä sisältö pystysuunnassa */
-
 }
-
 .footer-content .copyright-bar {
   text-align: center; /* Aseta tekstit oikealle */
 }
